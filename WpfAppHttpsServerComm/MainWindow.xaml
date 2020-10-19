@@ -10,13 +10,13 @@
         <Button x:Name="ButtonConnect" Content="Connect" HorizontalAlignment="Left" Height="60" Margin="30,100,0,0" VerticalAlignment="Top" Width="200" FontSize="20" Click="ButtonConnect_Click"/>
         <Button x:Name="ButtonPost" Content="Post" HorizontalAlignment="Left" Margin="30,180,0,0" VerticalAlignment="Top" Height="60" Width="200" FontSize="20" Click="ButtonPost_Click"/>
         <TextBox x:Name="TextBoxUrl" HorizontalAlignment="Left" Margin="250,50,0,0" Text="https://esp32-mdns.local" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="40" FontSize="20"/>
-        <TextBox x:Name="TextBoxPostData" HorizontalAlignment="Left" Margin="250,130,0,0" Text="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="40" FontSize="20"/>
-        <TextBox x:Name="TextBoxResponse" HorizontalAlignment="Left" Margin="250,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="40" FontSize="20"/>
-        <TextBox x:Name="TextBoxStatus" HorizontalAlignment="Left" Margin="250,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="40" FontSize="20"/>
+        <TextBox x:Name="TextBoxPostData" HorizontalAlignment="Left" Margin="250,130,0,0" Text="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="60" FontSize="20"/>
+        <TextBox x:Name="TextBoxResponse" HorizontalAlignment="Left" Margin="250,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="60" FontSize="20"/>
+        <TextBox x:Name="TextBoxStatus" HorizontalAlignment="Left" Margin="250,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Height="40" FontSize="20"/>
         <Label x:Name="LabelUrl" Content="URL" HorizontalAlignment="Left" Margin="250,15,0,0" VerticalAlignment="Top" Width="160" FontSize="20"/>
         <Label x:Name="LabelPostData" Content="Post Data" HorizontalAlignment="Left" Margin="250,95,0,0" VerticalAlignment="Top" Width="160" FontSize="20"/>
-        <Label x:Name="LabelResponse" Content="Response" HorizontalAlignment="Left" Margin="250,175,0,0" VerticalAlignment="Top" Width="160" FontSize="20"/>
-        <Label x:Name="LabelStatus" Content="Status" HorizontalAlignment="Left" Margin="250,255,0,0" VerticalAlignment="Top" Width="160" FontSize="20"/>
+        <Label x:Name="LabelResponse" Content="Response" HorizontalAlignment="Left" Margin="250,195,0,0" VerticalAlignment="Top" Width="160" FontSize="20"/>
+        <Label x:Name="LabelStatus" Content="Status" HorizontalAlignment="Left" Margin="250,295,0,0" VerticalAlignment="Top" Width="160" FontSize="20"/>
 
     </Grid>
 </Window>
